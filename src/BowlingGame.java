@@ -24,6 +24,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int score = 0;
+		
 		for (int i = 0; i < frames.size(); i++)
 			score += frames.get(i).score();
 		

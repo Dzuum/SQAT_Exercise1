@@ -64,3 +64,4 @@ RefactoringAction 1474458306345 TestBowling.java RENAME test_FrameScore()=>void 
 RefactoringAction 1474458307355 TestBowling.java RENAME test_FrameZScore()=>void test_FrameZeroScore() METHOD
 EditAction 1474458309659 TestBowling.java 975 5 10 1
 EditAction 1474458369468 BowlingGame.java 681 4 4 0
+EditAction 1474458371911 BowlingGame.java 685 4 4 0
