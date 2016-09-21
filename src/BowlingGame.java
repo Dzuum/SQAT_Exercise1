@@ -36,9 +36,7 @@ public class BowlingGame {
 			if (frames.get(i).isStrike()) { //Strike
 				if ((i + 1) == frames.size()) //Last throw was strike
 					frameScore += bonus.score();
-				
-				
-				if ((i + 1) < frames.size()) {
+				else if ((i + 1) < frames.size()) {
 					frameScore += frames.get(i + 1).score();
 					
 					//Special case, when consecutive strikes
