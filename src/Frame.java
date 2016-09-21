@@ -4,10 +4,12 @@ public class Frame {
 	private boolean isBonus;
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
-		Frame(firstThrow, secondThrow, false);
+		this(firstThrow, secondThrow, false);
 	}
 	
 	public Frame(int firstThrow, int secondThrow, boolean isBonus) throws BowlingException {
+		this.isBonus = isBonus;
+		
 		if (!isBonus && (firstThrow < 0 || secondThrow < 0
 			|| firstThrow > 10 || secondThrow > 10
 			|| firstThrow + secondThrow > 10))
