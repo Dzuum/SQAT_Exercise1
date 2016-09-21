@@ -58,6 +58,9 @@ public class TestBowling {
 		assertEquals(81, game.score());
 	}
 	
+	////////////////////
+	//STRIKES AND SPARES
+	
 	@Test
 	public void test_StrikeInBeginning_Score() throws BowlingException {
 		BowlingGame game = new BowlingGame();
@@ -90,5 +93,19 @@ public class TestBowling {
 		assertEquals(88, game.score());
 	}
 	
-	
+	@Test
+	public void test_StrikeFollowedBySpare_Score() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1, 9));
+		game.addFrame(new Frame(3, 6));
+		game.addFrame(new Frame(7, 2));
+		game.addFrame(new Frame(3, 6));
+		game.addFrame(new Frame(4, 4));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(3, 3));
+		game.addFrame(new Frame(4, 5));
+		game.addFrame(new Frame(8, 1));
+		game.addFrame(new Frame(2, 6));
+		assertEquals(88, game.score());
+	}
 }
