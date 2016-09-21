@@ -3,6 +3,8 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
+		if (firstThrow < 0 || secondThrow < 0)
+			throw new BowlingException();
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
