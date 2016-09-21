@@ -38,7 +38,7 @@ public class BowlingGame {
 			
 			if (frames.get(i).isStrike()) { //Strike
 				if ((i + 1) == frames.size()) //Last throw was strike
-					frameScore += bonus.score();
+					frameScore += bonusFirst + bonusSecond;
 				else if ((i + 1) < frames.size()) {
 					frameScore += frames.get(i + 1).score();
 					
@@ -48,7 +48,7 @@ public class BowlingGame {
 				}
 			} else if (frames.get(i).isSpare()) { //Spare
 				if ((i + 1) == frames.size()) //Last throw was spare
-					frameScore += bonus.getFirstThrow();
+					frameScore += bonusFirst;
 				else if ((i + 1) < frames.size())
 					frameScore += frames.get(i + 1).getFirstThrow();
 			}
