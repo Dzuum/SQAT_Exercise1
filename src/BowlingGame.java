@@ -41,7 +41,7 @@ public class BowlingGame {
 					frameScore += bonusFirst + bonusSecond;
 				else if ((i + 1) <= frames.size()) {
 					if ((i + 1) == frames.size()) 
-						frameScore += frames.get(i + 1).score();
+						frameScore += bonusFirst + bonusSecond;
 					else
 						frameScore += frames.get(i + 1).score();
 					
