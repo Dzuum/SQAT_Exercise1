@@ -39,3 +39,7 @@ UnitTestSessionAction 1474458120333 TestBowling.java OK
 RefactoringAction 1474458166404 TestBowling.java ADD void test_NegativeScore1()/2 METHOD
 RefactoringAction 1474458167920 TestBowling.java RENAME test_NegativeScore1()/2=>void test_NegativeScore2() METHOD
 EditAction 1474458170991 TestBowling.java 466 2 4 0
+RefactoringAction 1474458175451 TestBowling.java ADD void test_NegativeScore2()/2 METHOD
+RefactoringAction 1474458181469 TestBowling.java RENAME test_NegativeScore2()/2=>void test_Hig() METHOD
+RefactoringAction 1474458185483 TestBowling.java RENAME test_Hig()=>void test_TooBigScore() METHOD
+EditAction 1474458188385 TestBowling.java 650 3 6 0

@@ -15,4 +15,10 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(3, -2));
 	}
+	
+	@Test(expected=BowlingException.class)
+	public void test_TooBigScore() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(13, 2));
+	}
 }
