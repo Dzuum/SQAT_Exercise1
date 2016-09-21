@@ -11,3 +11,9 @@ EditAction 1474457812510 Frame.java 769 6 9 0
 CompilationAction 1474457812632 Frame.java
 CompilationAction 1474457903848 Frame.java
 EditAction 1474457938061 Frame.java 878 6 9 0
+RefactoringAction 1474457957453 TestBowling.java RENAME test()=>void test_() METHOD
+RefactoringAction 1474457961970 TestBowling.java RENAME test_()=>void test_noNegativeScores() METHOD
+RefactoringAction 1474457967991 TestBowling.java RENAME test_noNegativeScores()=>void test_NegativeScore() METHOD
+RefactoringAction 1474457969000 TestBowling.java RENAME test_NegativeScore()=>void test_NegativeScore1() METHOD
+CompilationAction 1474457979800 TestBowling.java
+EditAction 1474457983136 TestBowling.java 258 1 2 0
