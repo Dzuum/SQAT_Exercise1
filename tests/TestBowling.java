@@ -5,9 +5,7 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test(expected=BowlingException.class)
-	public void test_NegativeScore1() {
-		fail("Not yet implemented");
-		
+	public void test_NegativeScore1() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(-1, 2));
 	}
