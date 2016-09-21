@@ -176,7 +176,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_BonusIsStrike_Score() throws BowlingException {
+	public void test_BonusIsStrikeAfterSpare_Score() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1, 5));
 		game.addFrame(new Frame(3, 6));
