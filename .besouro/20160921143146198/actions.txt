@@ -232,3 +232,4 @@ UnitTestSessionAction 1474460368009 TestBowling.java FAIL
 RefactoringAction 1474460430612 BowlingGame.java ADD int bonusFirst FIELD
 RefactoringAction 1474460430612 BowlingGame.java ADD int bonusSecond FIELD
 EditAction 1474460458906 BowlingGame.java 1622 5 7 0
+EditAction 1474460472563 BowlingGame.java 1633 5 8 0
