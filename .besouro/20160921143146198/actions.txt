@@ -213,3 +213,4 @@ RefactoringAction 1474460180765 TestBowling.java RENAME test_LastFrameSpare_Scor
 EditAction 1474460181994 TestBowling.java 5202 14 106 10
 EditAction 1474460186765 TestBowling.java 5203 14 106 10
 EditAction 1474460202283 TestBowling.java 5206 14 106 10
+EditAction 1474460207235 TestBowling.java 5206 14 106 10
