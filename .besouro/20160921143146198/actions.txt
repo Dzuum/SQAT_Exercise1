@@ -220,3 +220,4 @@ RefactoringAction 1474460278426 TestBowling.java ADD void test_LastFrameStrike_S
 EditAction 1474460287407 TestBowling.java 5739 15 119 11
 EditAction 1474460302776 TestBowling.java 5736 15 119 11
 EditAction 1474460307992 TestBowling.java 5746 15 119 11
+EditAction 1474460319313 TestBowling.java 5746 15 119 11
