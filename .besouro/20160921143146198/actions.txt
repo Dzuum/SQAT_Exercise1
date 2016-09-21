@@ -75,3 +75,20 @@ RefactoringAction 1474458453132 TestBowling.java RENAME test_Gam=>void test_Full
 RefactoringAction 1474458454651 TestBowling.java RENAME test_FullGameScore=>void test_FullGameScore() METHOD
 RefactoringAction 1474458456162 TestBowling.java RENAME test_GameNotStarted()=>void test_GameNotStartedScore() METHOD
 EditAction 1474458517822 TestBowling.java 1610 7 24 3
+UnitTestCaseAction 1474458520111 TestBowling.java OK
+UnitTestSessionAction 1474458520112 TestBowling.java OK
+RefactoringAction 1474458536482 TestBowling.java REMOVE test_TooBigScore() METHOD
+RefactoringAction 1474458536482 TestBowling.java REMOVE test_NegativeScore2() METHOD
+RefactoringAction 1474458536483 TestBowling.java REMOVE test_FrameScore() METHOD
+RefactoringAction 1474458536483 TestBowling.java REMOVE test_TooBigThrow() METHOD
+RefactoringAction 1474458536483 TestBowling.java REMOVE test_GameNotStartedScore() METHOD
+RefactoringAction 1474458536484 TestBowling.java REMOVE test_FullGameScore() METHOD
+RefactoringAction 1474458536484 TestBowling.java REMOVE test_NegativeScore1() METHOD
+RefactoringAction 1474458542503 TestBowling.java ADD void test_NegativeScore1() METHOD
+RefactoringAction 1474458542504 TestBowling.java ADD void test_NegativeScore2() METHOD
+RefactoringAction 1474458542505 TestBowling.java ADD void test_TooBigThrow() METHOD
+RefactoringAction 1474458542505 TestBowling.java ADD void test_TooBigScore() METHOD
+RefactoringAction 1474458542506 TestBowling.java ADD void test_FrameScore() METHOD
+RefactoringAction 1474458542507 TestBowling.java ADD void test_GameNotStartedScore() METHOD
+RefactoringAction 1474458542507 TestBowling.java ADD void test_FullGameScore() METHOD
+EditAction 1474458608652 TestBowling.java 1520 7 20 3
