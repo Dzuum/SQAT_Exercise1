@@ -17,8 +17,8 @@ public class BowlingGame {
 	}
 	
 	// Sets the bonus throws at the end of the game
-	public void setBonus(int firstThrow, int secondThrow) {
-		bonus = new Frame(firstThrow, secondThrow);
+	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
+		bonus = new Frame(firstThrow, 0);
 	}
 	
 	// Returns the game score
