@@ -113,7 +113,7 @@ public class TestBowling {
 	public void test_ConsecutiveStrike_Score() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10, 0));
-		game.addFrame(new Frame(4, 6));
+		game.addFrame(new Frame(10, 0));
 		game.addFrame(new Frame(7, 2));
 		game.addFrame(new Frame(3, 6));
 		game.addFrame(new Frame(4, 4));
