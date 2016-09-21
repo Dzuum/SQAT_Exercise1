@@ -47,7 +47,7 @@ public class BowlingGame {
 					
 					//Consecutive strikes
 					if ((i + 2) == frames.size())
-						frameScore += bonusFirst + bonusSecond;
+						frameScore += bonusFirst;
 					else if ((i + 2) < frames.size())
 						frameScore += frames.get(i + 2).getFirstThrow();
 					
