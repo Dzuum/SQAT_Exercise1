@@ -71,3 +71,12 @@
 1474458610194 test-addition 1 73 true
 1474458610195 test-addition 1 73 true
 1474458610196 test-addition 1 73 true
+1474458898320 test-first 4 240 true
+1474458898321 test-first 4 240 true
+1474458898322 test-first 4 240 true
+1474458898323 test-first 4 240 true
+1474458898324 test-first 4 240 true
+1474458898325 test-first 4 240 true
+1474458898326 test-last 1 240 false
+1474458898327 test-last 1 240 false
+1474458898328 test-last 1 240 false

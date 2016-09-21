@@ -116,3 +116,6 @@ EditAction 1474458859154 BowlingGame.java 843 4 5 0
 EditAction 1474458887391 BowlingGame.java 864 4 5 0
 EditAction 1474458888697 BowlingGame.java 868 4 5 0
 EditAction 1474458896238 BowlingGame.java 870 4 5 0
+UnitTestCaseAction 1474458898319 TestBowling.java OK
+UnitTestSessionAction 1474458898320 TestBowling.java OK
+EditAction 1474458929092 Frame.java 872 6 9 0
