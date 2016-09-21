@@ -53,3 +53,6 @@ RefactoringAction 1474458236622 TestBowling.java ADD void test_ FIELD
 RefactoringAction 1474458239137 TestBowling.java RENAME test_=>void test_Score() METHOD
 RefactoringAction 1474458242151 TestBowling.java RENAME test_Score()=>void test_FrameScore() METHOD
 EditAction 1474458251674 TestBowling.java 920 5 9 0
+CompilationAction 1474458251925 TestBowling.java
+CompilationAction 1474458260551 TestBowling.java
+EditAction 1474458279177 TestBowling.java 975 5 10 1
