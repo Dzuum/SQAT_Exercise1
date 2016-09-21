@@ -18,3 +18,5 @@ RefactoringAction 1474457969000 TestBowling.java RENAME test_NegativeScore()=>vo
 CompilationAction 1474457979800 TestBowling.java
 EditAction 1474457983136 TestBowling.java 258 1 2 0
 EditAction 1474457999240 TestBowling.java 294 1 3 0
+CompilationAction 1474457999453 TestBowling.java
+EditAction 1474458052209 Frame.java 855 6 9 0

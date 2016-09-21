@@ -2,7 +2,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
-	public Frame(int firstThrow, int secondThrow) throws BowlingException {
+	public Frame(int firstThrow, int secondThrow)  {
 		if (firstThrow < 0 || secondThrow < 0
 			|| firstThrow > 10 || secondThrow > 10
 			|| firstThrow + secondThrow > 10)
