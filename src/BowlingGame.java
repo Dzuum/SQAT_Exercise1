@@ -50,9 +50,6 @@ public class BowlingGame {
 						frameScore += bonusFirst;
 					else if ((i + 2) < frames.size())
 						frameScore += frames.get(i + 2).getFirstThrow();
-					
-					if (frames.get(i + 1).isStrike() && (i + 2) < frames.size())
-						frameScore += frames.get(i + 2).getFirstThrow();
 				}
 			} else if (frames.get(i).isSpare()) { //Spare
 				if ((i + 1) == frames.size()) //Last throw was spare
