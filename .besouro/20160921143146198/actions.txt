@@ -147,3 +147,9 @@ RefactoringAction 1474459333999 TestBowling.java RENAME test_StrikeFollowedBySpa
 EditAction 1474459335516 TestBowling.java 3627 11 68 7
 EditAction 1474459339072 TestBowling.java 3628 11 68 7
 EditAction 1474459349434 TestBowling.java 3628 11 68 7
+UnitTestCaseAction 1474459351862 TestBowling.java OK
+UnitTestSessionAction 1474459351863 TestBowling.java OK
+RefactoringAction 1474459400603 TestBowling.java ADD void test_ConsecutiveStrike_Score()/2 METHOD
+RefactoringAction 1474459404119 TestBowling.java RENAME test_ConsecutiveStrike_Score()/2=>void test_ConsecutiveSpares_Score() METHOD
+RefactoringAction 1474459406631 TestBowling.java RENAME test_ConsecutiveStrike_Score()=>void test_ConsecutiveStrikes_Score() METHOD
+EditAction 1474459413375 TestBowling.java 4142 12 80 8
