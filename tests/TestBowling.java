@@ -37,13 +37,13 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_GameNotStartedScore() {
+	public void test_GameNotStarted_Score() {
 		BowlingGame game = new BowlingGame();
 		assertEquals(0, game.score());
 	}
 	
 	@Test
-	public void test_FullGameScore() throws BowlingException {
+	public void test_FullGame_Score() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1, 5));
 		game.addFrame(new Frame(3, 6));
@@ -56,5 +56,10 @@ public class TestBowling {
 		game.addFrame(new Frame(8, 1));
 		game.addFrame(new Frame(2, 6));
 		assertEquals(81, game.score());
+	}
+	
+	@Test
+	public void test_StrikeInBeginning_Score() throws BowlingException {
+		
 	}
 }

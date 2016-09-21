@@ -97,3 +97,15 @@ UnitTestSessionAction 1474458610190 TestBowling.java OK
 EditAction 1474458657361 Frame.java 868 6 9 0
 EditAction 1474458667332 Frame.java 888 6 9 0
 EditAction 1474458671253 Frame.java 868 6 9 0
+RefactoringAction 1474458728408 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1474458734430 TestBowling.java RENAME test_=>void test_Game FIELD
+RefactoringAction 1474458740447 TestBowling.java RENAME test_Game=>void test_Strike FIELD
+RefactoringAction 1474458744970 TestBowling.java RENAME test_Strike=>void test_StrikeInBeginning FIELD
+RefactoringAction 1474458747483 TestBowling.java RENAME test_StrikeInBeginning=>void test_StrikeInBeginning_GameScore FIELD
+RefactoringAction 1474458749494 TestBowling.java RENAME test_FullGameScore()=>void test_Full_GameScore() METHOD
+RefactoringAction 1474458752008 TestBowling.java RENAME test_GameNotStartedScore()=>void test_GameNotStarted_Score() METHOD
+RefactoringAction 1474458753519 TestBowling.java RENAME test_Full_GameScore()=>void test_FullGameScore() METHOD
+RefactoringAction 1474458754530 TestBowling.java RENAME test_FullGameScore()=>void test_FullGame_Score() METHOD
+RefactoringAction 1474458758044 TestBowling.java RENAME test_StrikeInBeginning_GameScore=>void test_StrikeInBeginningGameScore FIELD
+RefactoringAction 1474458760062 TestBowling.java RENAME test_StrikeInBeginningGameScore=>void test_StrikeInBeginning_Score FIELD
+EditAction 1474458780599 TestBowling.java 1612 8 20 3
