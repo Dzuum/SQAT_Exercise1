@@ -67,3 +67,6 @@ EditAction 1474458369468 BowlingGame.java 681 4 4 0
 EditAction 1474458371911 BowlingGame.java 685 4 4 0
 EditAction 1474458391238 BowlingGame.java 771 4 5 0
 EditAction 1474458403866 BowlingGame.java 747 4 5 0
+CompilationAction 1474458404112 BowlingGame.java
+RefactoringAction 1474458417529 TestBowling.java ADD void test_GameNotStarted() METHOD
+EditAction 1474458434523 TestBowling.java 1103 6 12 2
