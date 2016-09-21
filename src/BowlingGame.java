@@ -30,13 +30,13 @@ public class BowlingGame {
 			frameScore = frames.get(i).score();
 			
 			if ((i + 1) < frames.size()) {
-				if (frames.get(i).isStrike()) {
+				if (frames.get(i).isStrike()) { //Strike
 					frameScore += frames.get(i + 1).score();
 					
 					//Special case, when consecutive strikes
 					if (frames.get(i + 1).isStrike() && (i + 2) < frames.size())
 						frameScore += frames.get(i + 2).getFirstThrow();
-				} else if (frames.get(i).isSpare()) {
+				} else if (frames.get(i).isSpare()) { //Spare
 					frameScore += frames.get(i + 1).getFirstThrow();
 				}
 			}
