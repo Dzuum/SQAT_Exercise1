@@ -111,3 +111,4 @@ RefactoringAction 1474458760062 TestBowling.java RENAME test_StrikeInBeginningGa
 EditAction 1474458780599 TestBowling.java 1612 8 20 3
 EditAction 1474458801379 TestBowling.java 2035 8 32 4
 EditAction 1474458803625 BowlingGame.java 698 4 4 0
+EditAction 1474458814981 BowlingGame.java 721 4 5 0
