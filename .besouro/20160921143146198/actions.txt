@@ -124,3 +124,4 @@ EditAction 1474458984577 BowlingGame.java 985 4 5 0
 RefactoringAction 1474459025972 TestBowling.java ADD void test_ FIELD
 RefactoringAction 1474459045006 TestBowling.java RENAME test_=>void test_SpareInBeginning_Score() METHOD
 EditAction 1474459054430 TestBowling.java 2546 9 44 5
+EditAction 1474459067696 TestBowling.java 2545 9 44 5
