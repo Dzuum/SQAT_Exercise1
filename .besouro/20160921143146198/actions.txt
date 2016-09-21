@@ -221,3 +221,9 @@ EditAction 1474460287407 TestBowling.java 5739 15 119 11
 EditAction 1474460302776 TestBowling.java 5736 15 119 11
 EditAction 1474460307992 TestBowling.java 5746 15 119 11
 EditAction 1474460319313 TestBowling.java 5746 15 119 11
+UnitTestCaseAction 1474460320632 TestBowling.java OK
+UnitTestSessionAction 1474460320632 TestBowling.java OK
+RefactoringAction 1474460330087 TestBowling.java ADD void test_BonusIsStrikeAfterSpare_Score()/2 METHOD
+RefactoringAction 1474460335100 TestBowling.java RENAME test_BonusIsStrikeAfterSpare_Score()/2=>void test_A_Score() METHOD
+RefactoringAction 1474460337612 TestBowling.java RENAME test_A_Score()=>void test_AllStrikes_Score() METHOD
+EditAction 1474460363215 TestBowling.java 6288 16 132 12
