@@ -109,3 +109,4 @@ RefactoringAction 1474458754530 TestBowling.java RENAME test_FullGameScore()=>vo
 RefactoringAction 1474458758044 TestBowling.java RENAME test_StrikeInBeginning_GameScore=>void test_StrikeInBeginningGameScore FIELD
 RefactoringAction 1474458760062 TestBowling.java RENAME test_StrikeInBeginningGameScore=>void test_StrikeInBeginning_Score FIELD
 EditAction 1474458780599 TestBowling.java 1612 8 20 3
+EditAction 1474458801379 TestBowling.java 2035 8 32 4
