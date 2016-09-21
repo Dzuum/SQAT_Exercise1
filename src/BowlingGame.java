@@ -30,6 +30,9 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score() {
+		List<Frame> fullScores = new ArrayList<Frame>();
+		fullScores.addAll(frames);
+		
 		int score = 0;
 		int frameScore = 0;
 		
