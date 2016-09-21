@@ -47,3 +47,9 @@ RefactoringAction 1474458192517 TestBowling.java ADD void test_TooBigScore()/2 M
 RefactoringAction 1474458195531 TestBowling.java RENAME test_TooBigScore()/2=>void test_TooBigT() METHOD
 RefactoringAction 1474458196541 TestBowling.java RENAME test_TooBigT()=>void test_TooBigThrow() METHOD
 EditAction 1474458198083 TestBowling.java 833 4 8 0
+UnitTestCaseAction 1474458201518 TestBowling.java OK
+UnitTestSessionAction 1474458201519 TestBowling.java OK
+RefactoringAction 1474458236622 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1474458239137 TestBowling.java RENAME test_=>void test_Score() METHOD
+RefactoringAction 1474458242151 TestBowling.java RENAME test_Score()=>void test_FrameScore() METHOD
+EditAction 1474458251674 TestBowling.java 920 5 9 0

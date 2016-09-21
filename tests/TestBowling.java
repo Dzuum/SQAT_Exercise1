@@ -27,4 +27,10 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(9, 2));
 	}
+	
+	@Test
+	public void test_FrameScore() {
+		Frame frame = new Frame(3, 6);
+		
+	}
 }
