@@ -144,8 +144,8 @@ public class TestBowling {
 	@Test
 	public void test_LastFrameSpare_Score() throws BowlingException {
 		BowlingGame game = new BowlingGame();
-		game.addFrame(new Frame(8, 2));
-		game.addFrame(new Frame(5, 5));
+		game.addFrame(new Frame(1, 5));
+		game.addFrame(new Frame(3, 6));
 		game.addFrame(new Frame(7, 2));
 		game.addFrame(new Frame(3, 6));
 		game.addFrame(new Frame(4, 4));
@@ -153,7 +153,8 @@ public class TestBowling {
 		game.addFrame(new Frame(3, 3));
 		game.addFrame(new Frame(4, 5));
 		game.addFrame(new Frame(8, 1));
-		game.addFrame(new Frame(2, 6));
+		game.addFrame(new Frame(2, 8));
+		game.setBonus(7, 0);;
 		assertEquals(90, game.score());
 	}
 }
