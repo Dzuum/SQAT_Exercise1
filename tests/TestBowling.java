@@ -5,9 +5,14 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test(expected=BowlingException.class)
-	public void test_NegativeScore1()  {
+	public void test_NegativeScore1() throws BowlingException {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(-1, 2));
 	}
 
+	@Test(expected=BowlingException.class)
+	public void test_NegativeScore2() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(3, -2));
+	}
 }

@@ -30,3 +30,12 @@ EditAction 1474458105336 TestBowling.java 282 1 2 0
 UnitTestCaseAction 1474458109382 TestBowling.java OK
 UnitTestSessionAction 1474458109383 TestBowling.java OK
 EditAction 1474458112305 TestBowling.java 259 1 2 0
+CompilationAction 1474458112557 TestBowling.java
+UnitTestCaseAction 1474458115339 TestBowling.java FAIL
+UnitTestSessionAction 1474458115340 TestBowling.java FAIL
+CompilationAction 1474458117051 TestBowling.java
+UnitTestCaseAction 1474458120331 TestBowling.java OK
+UnitTestSessionAction 1474458120333 TestBowling.java OK
+RefactoringAction 1474458166404 TestBowling.java ADD void test_NegativeScore1()/2 METHOD
+RefactoringAction 1474458167920 TestBowling.java RENAME test_NegativeScore1()/2=>void test_NegativeScore2() METHOD
+EditAction 1474458170991 TestBowling.java 466 2 4 0
