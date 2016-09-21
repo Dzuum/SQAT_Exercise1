@@ -58,6 +58,23 @@ public class TestBowling {
 		assertEquals(81, game.score());
 	}
 	
+	@Test(expected=BowlingException.class)
+	public void test_TooManyFramese() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1, 5));
+		game.addFrame(new Frame(3, 6));
+		game.addFrame(new Frame(7, 2));
+		game.addFrame(new Frame(3, 6));
+		game.addFrame(new Frame(4, 4));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(3, 3));
+		game.addFrame(new Frame(4, 5));
+		game.addFrame(new Frame(8, 1));
+		game.addFrame(new Frame(2, 6));
+		game.addFrame(new Frame(2, 6));
+		assertEquals(81, game.score());
+	}
+	
 	////////////////////
 	//STRIKES AND SPARES
 	
@@ -225,4 +242,5 @@ public class TestBowling {
 		game.setBonus(10);
 		assertEquals(135, game.score());
 	}
+	
 }
