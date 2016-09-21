@@ -214,3 +214,7 @@ EditAction 1474460181994 TestBowling.java 5202 14 106 10
 EditAction 1474460186765 TestBowling.java 5203 14 106 10
 EditAction 1474460202283 TestBowling.java 5206 14 106 10
 EditAction 1474460207235 TestBowling.java 5206 14 106 10
+UnitTestCaseAction 1474460209130 TestBowling.java OK
+UnitTestSessionAction 1474460209131 TestBowling.java OK
+RefactoringAction 1474460278426 TestBowling.java ADD void test_LastFrameStrike_Score()/2 METHOD
+EditAction 1474460287407 TestBowling.java 5739 15 119 11
