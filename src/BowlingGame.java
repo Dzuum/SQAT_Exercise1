@@ -27,8 +27,13 @@ public class BowlingGame {
 		int frameScore = 0;
 		
 		for (int i = 0; i < frames.size(); i++) {
+			frameScore = frames.get(i).score();
 			
-			score += frames.get(i).score();
+			if (frames.get(i).isStrike()) {
+				frameScore += frames.get(i + 1).score();
+			}
+			
+			score += frameScore;
 		}
 		
 		return score;
