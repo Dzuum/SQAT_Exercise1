@@ -42,24 +42,10 @@ public class BowlingGame {
 						frameScore += frames.get(i + 2).getFirstThrow();
 				}
 			} else if (frames.get(i).isSpare()) { //Spare
-				if ((i + 1)) == frames.size())
-			}
-			
-			if ((i + 1) < frames.size()) {
-				if (frames.get(i).isStrike()) { //Strike
-					frameScore += frames.get(i + 1).score();
-					
-					//Special case, when consecutive strikes
-					if (frames.get(i + 1).isStrike() && (i + 2) < frames.size())
-						frameScore += frames.get(i + 2).getFirstThrow();
-				} else if (frames.get(i).isSpare()) { //Spare
-					System.out.println("i: " + i);
-					System.out.println("Bonus: " + bonus.score());
-					if ((i + 1) == frames.size()) //Last throw was spare
-						frameScore += bonus.getFirstThrow();
-					else
-						frameScore += frames.get(i + 1).getFirstThrow();
-				}
+				if ((i + 1) == frames.size())
+					frameScore += bonus.getFirstThrow();
+				else if ((i + 1) < frames.size())
+					frameScore += frames.get(i + 1).getFirstThrow();
 			}
 			
 			score += frameScore;
