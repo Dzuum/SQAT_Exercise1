@@ -42,7 +42,7 @@ public class BowlingGame {
 						frameScore += frames.get(i + 2).getFirstThrow();
 				} else if (frames.get(i).isSpare()) { //Spare
 					System.out.println("i: " + i);
-					System.out.println("Bonus: " + bonus.toString());
+					System.out.println("Bonus: " + bonus.score().toString());
 					if ((i + 1) == frames.size()) //Last throw was spare
 						frameScore += bonus.getFirstThrow();
 					else
