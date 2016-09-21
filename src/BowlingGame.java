@@ -22,7 +22,10 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	public int score(){
+	public int score() throws BowlingException {
+		if (frames == null)
+			throw new BowlingException();
+		
 		int score = 0;
 		
 		for (int i = 0; i < frames.size(); i++)
