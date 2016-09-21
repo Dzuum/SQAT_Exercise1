@@ -166,3 +166,4 @@ RefactoringAction 1474459621938 TestBowling.java RENAME test_ConsecutiveSpares_S
 EditAction 1474459623950 TestBowling.java 4650 13 92 9
 EditAction 1474459628598 TestBowling.java 4650 13 92 9
 EditAction 1474459669087 TestBowling.java 4675 13 94 9
+EditAction 1474459669610 TestBowling.java 4674 13 93 9
