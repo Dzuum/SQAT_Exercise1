@@ -252,3 +252,4 @@ RefactoringAction 1474460962135 BowlingGame.java ADD Frame bonus FIELD
 EditAction 1474460972586 BowlingGame.java 1551 5 7 0
 EditAction 1474460979507 Frame.java 899 6 9 0
 EditAction 1474460995703 Frame.java 977 7 9 0
+EditAction 1474461020110 Frame.java 1056 7 9 0
