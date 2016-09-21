@@ -70,3 +70,8 @@ EditAction 1474458403866 BowlingGame.java 747 4 5 0
 CompilationAction 1474458404112 BowlingGame.java
 RefactoringAction 1474458417529 TestBowling.java ADD void test_GameNotStarted() METHOD
 EditAction 1474458434523 TestBowling.java 1103 6 12 2
+RefactoringAction 1474458449596 TestBowling.java ADD void test_Gam FIELD
+RefactoringAction 1474458453132 TestBowling.java RENAME test_Gam=>void test_FullGameScore FIELD
+RefactoringAction 1474458454651 TestBowling.java RENAME test_FullGameScore=>void test_FullGameScore() METHOD
+RefactoringAction 1474458456162 TestBowling.java RENAME test_GameNotStarted()=>void test_GameNotStartedScore() METHOD
+EditAction 1474458517822 TestBowling.java 1610 7 24 3

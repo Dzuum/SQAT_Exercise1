@@ -35,8 +35,24 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_GameNotStarted() {
+	public void test_GameNotStartedScore() {
 		BowlingGame game = new BowlingGame();
 		assertEquals(0, game.score());
+	}
+	
+	@Test
+	public void test_FullGameScore() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1, 5));
+		game.addFrame(new Frame(3, 6));
+		game.addFrame(new Frame(7, 2));
+		game.addFrame(new Frame(3, 6));
+		game.addFrame(new Frame(4, 4));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(3, 3));
+		game.addFrame(new Frame(4, 5));
+		game.addFrame(new Frame(8, 1));
+		game.addFrame(new Frame(2, 6));
+		assertEquals(81, game.score());
 	}
 }
