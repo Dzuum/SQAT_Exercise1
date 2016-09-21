@@ -110,3 +110,4 @@ RefactoringAction 1474458758044 TestBowling.java RENAME test_StrikeInBeginning_G
 RefactoringAction 1474458760062 TestBowling.java RENAME test_StrikeInBeginningGameScore=>void test_StrikeInBeginning_Score FIELD
 EditAction 1474458780599 TestBowling.java 1612 8 20 3
 EditAction 1474458801379 TestBowling.java 2035 8 32 4
+EditAction 1474458803625 BowlingGame.java 698 4 4 0
