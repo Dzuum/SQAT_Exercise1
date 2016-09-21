@@ -56,3 +56,10 @@ EditAction 1474458251674 TestBowling.java 920 5 9 0
 CompilationAction 1474458251925 TestBowling.java
 CompilationAction 1474458260551 TestBowling.java
 EditAction 1474458279177 TestBowling.java 975 5 10 1
+UnitTestCaseAction 1474458288468 TestBowling.java OK
+UnitTestSessionAction 1474458288469 TestBowling.java OK
+UnitTestCaseAction 1474458288498 TestBowling.java OK
+UnitTestSessionAction 1474458288499 TestBowling.java OK
+RefactoringAction 1474458306345 TestBowling.java RENAME test_FrameScore()=>void test_FrameZScore() METHOD
+RefactoringAction 1474458307355 TestBowling.java RENAME test_FrameZScore()=>void test_FrameZeroScore() METHOD
+EditAction 1474458309659 TestBowling.java 975 5 10 1
