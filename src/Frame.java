@@ -13,6 +13,10 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public Frame(int firstThrow, int secondThrow, boolean isBonus) {
+		
+	}
+	
 	public int getFirstThrow() {
 		return firstThrow;
 	}
