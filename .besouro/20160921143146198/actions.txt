@@ -126,3 +126,6 @@ RefactoringAction 1474459045006 TestBowling.java RENAME test_=>void test_SpareIn
 EditAction 1474459054430 TestBowling.java 2546 9 44 5
 EditAction 1474459067696 TestBowling.java 2545 9 44 5
 EditAction 1474459068345 TestBowling.java 2546 9 44 5
+UnitTestCaseAction 1474459071777 TestBowling.java OK
+UnitTestSessionAction 1474459071778 TestBowling.java OK
+EditAction 1474459144731 TestBowling.java 2552 9 44 5

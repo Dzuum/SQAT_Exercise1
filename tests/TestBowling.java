@@ -89,4 +89,6 @@ public class TestBowling {
 		game.addFrame(new Frame(2, 6));
 		assertEquals(88, game.score());
 	}
+	
+	
 }
