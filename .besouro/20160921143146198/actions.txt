@@ -43,3 +43,7 @@ RefactoringAction 1474458175451 TestBowling.java ADD void test_NegativeScore2()/
 RefactoringAction 1474458181469 TestBowling.java RENAME test_NegativeScore2()/2=>void test_Hig() METHOD
 RefactoringAction 1474458185483 TestBowling.java RENAME test_Hig()=>void test_TooBigScore() METHOD
 EditAction 1474458188385 TestBowling.java 650 3 6 0
+RefactoringAction 1474458192517 TestBowling.java ADD void test_TooBigScore()/2 METHOD
+RefactoringAction 1474458195531 TestBowling.java RENAME test_TooBigScore()/2=>void test_TooBigT() METHOD
+RefactoringAction 1474458196541 TestBowling.java RENAME test_TooBigT()=>void test_TooBigThrow() METHOD
+EditAction 1474458198083 TestBowling.java 833 4 8 0
