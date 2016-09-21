@@ -13,7 +13,7 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame){
-		frames.add(frame));
+		frames.add(frame);
 	}
 	
 	// Sets the bonus throws at the end of the game
