@@ -287,3 +287,4 @@ RefactoringAction 1474461215290 TestBowling.java ADD void test_AllStrikes_Score(
 RefactoringAction 1474461217804 TestBowling.java RENAME test_AllStrikes_Score()/2=>void test_Re_Score() METHOD
 RefactoringAction 1474461220815 TestBowling.java RENAME test_Re_Score()=>void test_RealGame_Score() METHOD
 EditAction 1474461286174 TestBowling.java 6816 17 145 13
+EditAction 1474461291404 TestBowling.java 6816 17 145 13
