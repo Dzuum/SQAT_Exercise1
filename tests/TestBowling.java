@@ -9,6 +9,7 @@ public class TestBowling {
 		fail("Not yet implemented");
 		
 		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(-1, 2));
 	}
 
 }
