@@ -208,3 +208,6 @@ EditAction 1474460122870 BowlingGame.java 1542 5 7 0
 EditAction 1474460136405 BowlingGame.java 1577 5 7 0
 EditAction 1474460157020 BowlingGame.java 1570 5 7 0
 EditAction 1474460167554 BowlingGame.java 1551 5 7 0
+RefactoringAction 1474460177746 TestBowling.java ADD void test_LastFrameSpare_Score()/2 METHOD
+RefactoringAction 1474460180765 TestBowling.java RENAME test_LastFrameSpare_Score()/2=>void test_LastFrameSpe_Score() METHOD
+EditAction 1474460181994 TestBowling.java 5202 14 106 10
