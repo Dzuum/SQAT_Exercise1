@@ -22,7 +22,7 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	public int score() throws BowlingException {
+	public int score() {
 		if (frames == null)
 			throw new BowlingException();
 		
