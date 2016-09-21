@@ -295,3 +295,4 @@ RefactoringAction 1474461322306 TestBowling.java RENAME test_FullGame_Score()/2=
 RefactoringAction 1474461323316 TestBowling.java RENAME test_To_Score()=>void test_TooMany_Score() METHOD
 RefactoringAction 1474461325833 TestBowling.java RENAME test_TooMany_Score()=>void test_TooManyFramese() METHOD
 EditAction 1474461334602 TestBowling.java 7390 18 158 14
+EditAction 1474461353473 BowlingGame.java 1754 5 8 0
