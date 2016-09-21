@@ -212,3 +212,4 @@ RefactoringAction 1474460177746 TestBowling.java ADD void test_LastFrameSpare_Sc
 RefactoringAction 1474460180765 TestBowling.java RENAME test_LastFrameSpare_Score()/2=>void test_LastFrameSpe_Score() METHOD
 EditAction 1474460181994 TestBowling.java 5202 14 106 10
 EditAction 1474460186765 TestBowling.java 5203 14 106 10
+EditAction 1474460202283 TestBowling.java 5206 14 106 10
