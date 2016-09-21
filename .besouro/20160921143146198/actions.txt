@@ -169,3 +169,4 @@ EditAction 1474459669087 TestBowling.java 4675 13 94 9
 EditAction 1474459669610 TestBowling.java 4674 13 93 9
 RefactoringAction 1474459682088 BowlingGame.java ADD void setBonus(int) METHOD
 EditAction 1474459692256 BowlingGame.java 1327 5 7 0
+EditAction 1474459695544 BowlingGame.java 1332 5 7 0

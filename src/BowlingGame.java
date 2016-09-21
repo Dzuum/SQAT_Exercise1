@@ -22,7 +22,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow) throws BowlingException {
-		setBonus(firstThrow, 0);
+		this.setBonus(firstThrow, 0);
 	}
 	
 	// Returns the game score
