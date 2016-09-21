@@ -161,3 +161,6 @@ CompilationAction 1474459571716 BowlingGame.java
 CompilationAction 1474459599380 BowlingGame.java
 EditAction 1474459603616 BowlingGame.java 1217 4 6 0
 EditAction 1474459609629 BowlingGame.java 1227 4 6 0
+RefactoringAction 1474459618927 TestBowling.java ADD void test_ConsecutiveSpares_Score()/2 METHOD
+RefactoringAction 1474459621938 TestBowling.java RENAME test_ConsecutiveSpares_Score()/2=>void test_L_Score() METHOD
+EditAction 1474459623950 TestBowling.java 4650 13 92 9
