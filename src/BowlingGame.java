@@ -8,8 +8,6 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
-	private int bonusFirst; //Lazy workaround
-	private int bonusSecond;
 	
 	public BowlingGame(){}
 	
@@ -20,8 +18,7 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
-		bonusFirst = firstThrow;
-		bonusSecond = secondThrow;
+		bonus = new Frame(firstThrow, secondThrow);
 	}
 	
 	public void setBonus(int firstThrow) throws BowlingException {
@@ -38,22 +35,17 @@ public class BowlingGame {
 			
 			if (frames.get(i).isStrike()) { //Strike
 				if ((i + 1) == frames.size()) //Last throw was strike
-					frameScore += bonusFirst + bonusSecond;
-				else if ((i + 1) <= frames.size()) {
-					if ((i + 1) == frames.size())
-						frameScore += bonusFirst + bonusSecond;
-					else
-						frameScore += frames.get(i + 1).score();
+					frameScore += bonus.score();
+				else if ((i + 1) < frames.size()) {
+					frameScore += frames.get(i + 1).score();
 					
 					//Consecutive strikes
-					if ((i + 2) == frames.size())
-						frameScore += bonusFirst;
-					else if ((i + 2) < frames.size())
+					if (frames.get(i + 1).isStrike() && (i + 2) < frames.size())
 						frameScore += frames.get(i + 2).getFirstThrow();
 				}
 			} else if (frames.get(i).isSpare()) { //Spare
 				if ((i + 1) == frames.size()) //Last throw was spare
-					frameScore += bonusFirst;
+					frameScore += bonus.getFirstThrow();
 				else if ((i + 1) < frames.size())
 					frameScore += frames.get(i + 1).getFirstThrow();
 			}

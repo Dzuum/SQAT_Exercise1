@@ -245,3 +245,8 @@ EditAction 1474460738893 BowlingGame.java 1744 5 8 0
 EditAction 1474460801420 BowlingGame.java 1915 5 8 0
 EditAction 1474460817528 BowlingGame.java 1901 5 8 0
 EditAction 1474460819540 BowlingGame.java 1771 5 8 0
+UnitTestCaseAction 1474460821315 TestBowling.java FAIL
+UnitTestSessionAction 1474460821316 TestBowling.java FAIL
+RefactoringAction 1474460960126 BowlingGame.java REMOVE bonus FIELD
+RefactoringAction 1474460962135 BowlingGame.java ADD Frame bonus FIELD
+EditAction 1474460972586 BowlingGame.java 1551 5 7 0
