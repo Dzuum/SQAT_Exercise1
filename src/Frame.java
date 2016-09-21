@@ -4,18 +4,17 @@ public class Frame {
 	private boolean isBonus;
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
+		Frame(firstThrow, secondThrow, false);
+	}
+	
+	public Frame(int firstThrow, int secondThrow, boolean isBonus) throws BowlingException {
 		if (!isBonus && (firstThrow < 0 || secondThrow < 0
 			|| firstThrow > 10 || secondThrow > 10
 			|| firstThrow + secondThrow > 10))
 			throw new BowlingException();
-		
+			
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-	}
-	
-	public Frame(int firstThrow, int secondThrow, boolean isBonus) {
-		this.firstThrow = firstThrow;
-		this.secondThrow = secondThrow;s
 	}
 	
 	public int getFirstThrow() {
